@@ -25,9 +25,8 @@ Invoke `/record-demo <description>` and Claude will:
 Clone (or fork) this repo, then symlink the skill into your Claude Code skills directory:
 
 ```bash
-git clone <this-repo-url> ~/record-demo-plugin
 mkdir -p ~/.claude/skills/record-demo
-ln -sf ~/record-demo-plugin/skills/record-demo/SKILL.md ~/.claude/skills/record-demo/SKILL.md
+ln -sf <local checkout location>/skills/record-demo/SKILL.md ~/.claude/skills/record-demo/SKILL.md
 ```
 
 That's it. Claude Code picks up skills from `~/.claude/skills/` automatically — no restart needed.
