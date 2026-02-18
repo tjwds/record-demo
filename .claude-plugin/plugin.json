@@ -1,0 +1,9 @@
+{
+  "name": "record-demo",
+  "description": "Record video demos of web app features using Playwright browser automation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joe Woods <code@joewoods.dev>"
+  },
+  "keywords": ["demo", "video", "recording", "playwright", "browser"]
+}
